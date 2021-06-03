@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'Gelion';
+    src: url('../fonts/Gelion-Regular.ttf');
+    font-weight: 400;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Gelion';
+    text-transform: capitalize;
+    background:linear-gradient(#FFF1F1, white, #FFF1F1);
+
+
+}
+
+.wrapper{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    align-items: center;
+}
+.logo img{
+    float: left;
+    padding: 20px;
+}
+.logo p{
+    float: left;
+    padding: 20px;
+}
+.nav {
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color:#035755;
+    margin-right: 10px;
+
+}
+.nav a.active{
+    color: #FB4C47;
+    list-style:circle;
+    display: list-item;
+}
+.nav button {
+    border: 1.5px solid #FB4C47;
+    border-radius: 46px;
+    padding: 10px 22px;
+    background-color: #FFF1F1;
+    top: 20px;
+    color: #FA5652;
+    font-family: Gelion;
+}
+.text{
+    width: 400px;
+    height: 700px;
+    padding: 260px 0px 60px 40px;
+}
+h2{
+    color: #FA5652;
+
+}
+h1{
+    color: #035755;
+
+}
+p{
+    color: #4B4F51;
+
+}
+.text button{
+    border: 1.5px solid #FB4C47;
+    border-radius: 46px;
+    padding: 10px 22px;
+    background-color: #FB4C47;
+    top: 20px;
+    color: #FFF1F1;
+    font-family: Gelion;
+    box-shadow: 1px 1px 5px 0px #4B4F51;
+
+}
+.img{
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    right: 0;
+    top: 147px;
+    background-image: url("../img/Illustration 01.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img1{
+    width: 700px;
+    height: 550px;
+    background-image: url("../img/Img article.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(-10.07deg);
+}
+.article{
+    width: 400px;
+    height: 550px;
+    padding-top: 140px;
+
+}
+.corona-section{
+    display: flex;
+    justify-content:end;
+    padding-top: 20px;
+}
+.article button{
+    border: 1.5px solid #FFE1E1;
+    border-radius: 46px;
+    padding: 10px 22px;
+    background-color: #FFE1E1;
+    top: 20px;
+    color: #FB4C47;
+    font-family: Gelion;
+    box-shadow: 1px 1px 5px 0px #4B4F51;
+
+}
+.img2{
+    background-image: url('../img/articcle2.svg');
+    position: absolute;
+    height: 283px;
+    width: 144px;
+    right: 0;
+    top: 1020px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.img3{
+    background-image: url('../img/article3.svg');
+    position: absolute;
+    height: 132px;
+    width: 136px;
+    right: 50px;
+    top: 1200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: matrix(0.81, -0.59, -0.59, -0.81, 0, 0);
+}
+.contagion{
+    display: flex;
+    justify-content: center;
+}
+.text2{
+    height: 200px;
+    width: 500px;
+    text-align: center;
+}
+.contagion0{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.img-contagion {
+    position: absolute;
+    background-image: url(../img/contagion.svg);
+    height: 183px;
+    width: 144px;
+    top: 1900px;
+    left: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.contagion0 div{
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    z-index: 2;
+
+}
+.contagion0 img{
+    width: 256px;
+    height: 236px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contagion0 h2 {
+    color: #035755;
+    text-align: center;
+}
+.contagion0 p{
+    text-align: center;
+    color: #4B4F51;
+}
+
+.symptomps{
+    width: 600px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.img-symptoms{
+    background-image: url(../img/symptoms1.svg);
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.img-left{
+    background-image: url(../img/symptoms-left.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 129px;
+    width: 134px;
+    top: 2630px;
+    left: 85px;
+}
+.img-right{
+    background-image: url(../img/symptoms-right.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 220px;
+    width: 148px;
+    top: 2730px;
+    right: 85px;
+}
+.type1{
+    width: 600px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.mask01{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.number{
+    height: 40px;
+    width: 40px;
+    background: #FFD6D7;
+    border-radius: 50%;
+    color: #FB4C47;
+    font-size: 32px;
+    text-align: center;
+}
+.text01 h2{
+    color: #035755;
+}
+.text01{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.text001{
+    padding: 20px;
+}
+.mask01 .img-01{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 370px;
+}
+.mask01 .img-01.bg-img-1{
+    background-image: url(../img/01.svg);
+}
+.mask01 .img-01.bg-img-2{
+    background-image: url(../img/02.svg);
+}
+.mask01 .img-01.bg-img-3{
+    background-image: url(../img/03.svg);
+}
+.mask01 .img-01.bg-img-4{
+    background-image: url(../img/04.svg);
+}
+.img-left-1{
+    background-image: url(../img/path1470.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 277px;
+    width: 287px;
+    top: 3500px;
+    left: 0;
+}
+.img-right-1{
+    background-image: url(../img/right-1.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 158px;
+    width: 131px;
+    top: 4665px;
+    right: 8px;
+}
+.img-right-2{
+    background-image: url(../img/right-2.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 315px;
+    width: 157px;
+    top: 4770px;
+    right: 0;
+}
